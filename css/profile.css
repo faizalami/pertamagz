@@ -1,0 +1,119 @@
+
+/* CSS Document */
+
+.perta-crue-container
+{
+	margin: 20vh 2vw 0px 5vw;
+	padding: 20px;
+	width: 15vw;
+	position: fixed;
+	background: #000000;
+	color: #FFFFFF;
+	opacity: 0.7;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.perta-crue
+{
+	font-size: 3vh;
+	display: block;
+	padding: 2.5vh 2vw;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.perta-crue:hover
+{
+	padding: 2.5vh 2.5vw;
+}
+
+.perta-detail-container
+{
+	margin: 20vh 2vw 0px 25vw;
+	padding: 20px;
+	width: 40vw;
+	height: 65vh;
+	position: fixed;
+	background: #000000;
+	color: #FFFFFF;
+	opacity: 0.7;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+.perta-phot-container
+{
+	margin: 20vh 2vw 0px 70vw;
+	padding: 20px;
+	width: 30vw;
+	height: 65vh;
+	position: fixed;
+	background: #FFFFFF;
+	opacity: 0.7;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.perta-phot
+{
+	margin-left: 20px;
+	height: 100%;
+}
+
+.detail
+{
+	width: 95%;
+	padding: 2px;
+}
+
+@media screen and (max-width : 1024px) {
+
+.perta-crue-container
+{
+	margin: 20vh 2vw 0px 9vw;
+	padding: 20px;
+	width: 15vw;
+}
+
+.perta-detail-container
+{
+	margin: 20vh 2vw 0px 30vw;
+	padding: 5px;
+	width: 43vw;
+	height: 60vh;
+}
+
+.perta-phot-container
+{
+	margin: 20vh 2vw 0px 75vw;
+	padding: 10px;
+	width: 25vw;
+	height: 50vh;
+}
+}
+
+@media screen and (max-width : 640px) {
+
+.perta-crue-container
+{
+	margin: 20vh 2vw 0px 9vw;
+	padding: 20px;
+	width: 14vw;
+}
+
+.perta-detail-container
+{
+	margin: 20vh 2vw 0px 32vw;
+	padding: 5px;
+	width: 40vw;
+	height: 60vh;
+}
+
+.perta-phot-container
+{
+	margin: 20vh 2vw 0px 75vw;
+	padding: 10px;
+	width: 25vw;
+	height: 50vh;
+}
+}

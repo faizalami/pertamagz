@@ -1,0 +1,104 @@
+
+/* CSS Document */
+
+
+
+#loading-screen
+{
+	width: 100vw;
+	height: 100vh;
+	background: url(../page/depan.png);
+	background-size: 100vw 100vh;
+	z-index: 9999;
+	position: fixed;
+}
+
+#logo
+{
+	width: 30%;
+	margin: 10vh 35%;
+	z-index: 10000;
+}
+
+#countdown
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 8.5vw;
+	color: #0015FF;
+	width: 10vw;
+	height: 10vw;
+	/*background: #00FFE3;
+	border: #0015FF solid thick;
+	border-radius: 6vw;*/
+	text-align: center;
+	margin: 5vh 45vw;
+	opacity: 0.7;
+	z-index: 10000;
+}
+
+#cover-depan, #back, #over
+{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+}
+
+#back
+{
+	z-index: -2;
+}
+
+#over
+{
+	z-index: 0;
+}
+
+#headline-container
+{
+	width: 25vw;
+	margin: 15vh 20vh;
+	position: fixed;
+	z-index: +3;
+}
+
+#headline li
+{
+	font-size: 5vh;
+	margin-bottom: 1vh;
+	display: block;
+}
+
+#headline li a
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	display: block;
+	padding: 2.5vh 1vw;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	opacity: 0.3;
+}
+
+#headline img
+{
+	width: 100%;
+}
+
+#headline li a:hover
+{
+	padding: 2.5vh 1.5vw;
+	background: #01C8FB;
+	opacity: 0.5;
+	border-right: #003CFF solid medium;
+}
+
+/* Mobile */
+@media screen and (max-width : 1024px) {
+
+#headline-image-container
+{
+	margin: 15vh 0px 0px 55vw;
+	width: 45vw;
+}
+}

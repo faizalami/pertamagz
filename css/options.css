@@ -1,0 +1,121 @@
+
+/* CSS Document */
+#page1
+{
+	background:#FD0004;
+}
+
+#page1 #konten-1
+{
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+	text-align:justify;
+	text-indent:20px;
+	width:50vw;
+	height:50vh;
+	overflow-y:hidden;
+	margin-left:45vw;
+	margin-top:20vh;
+	display:block;
+}
+}
+#page1 #judul-1
+{
+	text-transform:uppercase;
+	margin-left:30vw;
+	font-size:3vh;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#page2
+{
+	background:#F8FF00;
+}
+#page2 #konten-2
+{
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+	width:50vw;
+	margin-left:45vw;
+	margin-top:5vh;
+}
+#page2 #konten-2 ul
+{
+	list-style-type:circle;
+}
+#page2 #judul-2
+{
+	text-transform:uppercase;
+	margin-left:30vw;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#page3
+{
+	background:#00FF05;
+}
+#page3 #konten-3
+{
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+	width:50vw;
+	margin-left:45vw;
+	margin-top:5vh;
+	text-align:justify;
+	text-indent:20px;
+}
+#page3 #judul-3
+{
+	text-transform:uppercase;
+	margin-left:30vw;
+	font-size:3vh;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#page4 #konten-4
+{
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+	width:50vw;
+	margin-left:45vw;
+	margin-top:5vh;
+	text-align:justify;
+	text-indent:20px;
+}
+#page4 #konten-4 li
+{
+	list-style-type:circle;
+}
+#page4 #judul-4
+{
+	text-transform:uppercase;
+	margin-left:30vw;
+	font-size:3vh;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+#page4
+{
+	background:#2A00FF;
+}
+#page5
+{
+	background:#FD00E4;
+}
+
+#page6
+{
+	background:#00CBFF;
+}
+
+#page7
+{
+	background:#91FF00;
+}
+
+#page8
+{
+	background:#FF0076;
+}

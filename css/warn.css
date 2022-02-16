@@ -1,0 +1,44 @@
+
+/* CSS Document */
+
+#warn
+{
+	margin-top: 20vh;
+	width: 100%;
+}
+
+#warn-id, #warn-en
+{
+	width: 80%;
+	display: table;
+	margin: 20px 10%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+	text-shadow: #ABABAB 0px 0px 20px;
+	line-height: 150%;
+}
+
+#warn-id p, #warn-en p
+{
+	margin-bottom: 10px;
+}
+
+#warn-id
+{
+	font-size: 3.3vw;
+}
+
+#warn-en
+{
+	font-size: 3vw;
+}
+
+#warn hr
+{
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}

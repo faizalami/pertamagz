@@ -1,0 +1,160 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*body {overflow:hidden;}*/
+
+.clearfix:before, .clearfix:after
+{
+	content: " ";
+	display: table;
+}
+
+.clearfix:after
+{
+	clear: both;
+}
+
+.clearfix
+{
+ *zoom:1;
+}
+
+#penutup
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #000798;
+	text-align: center;
+	font-size: 7vh;
+	margin: 5vh 40% 0px 40%;
+	z-index: 1;
+	width: 20%;
+	padding: 5px;
+	background: #00FFFB;
+	opacity: 0.5;
+	border: dashed thick #0074FF;
+	position: fixed;
+}
+
+.title h1
+{
+	opacity: 1.0;
+}
+
+.cover
+{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: fixed;
+	z-index: -1;
+	top: 0px;
+}
+
+#bgcov
+{
+	background: url(../img/city.jpg);
+	width: 120%;
+	height: 130vh;
+	top: -30vh;
+	left: -10%
+}
+
+.profile
+{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: fixed;
+	z-index: -1;
+	top: 0px;
+}
+
+#bgprof
+{
+	background: url(../img/city.jpg);
+	width: 120%;
+	height: 130vh;
+	top: -30vh;
+	left: -10%
+}
+
+.layer div
+{
+	position: fixed;
+}
+
+.landscape
+{
+	top: 65vh;
+	left: -250px;
+}
+
+.grass
+{
+	top: 90vh;
+	left: -250px;
+}
+
+.grass2
+{
+	top: 92vh;
+	left: -250px;
+}
+
+.grass3
+{
+	top: 91vh;
+	left: -250px;
+}
+
+.leaves
+{
+	top: 20vh;
+	left: 0px;
+}
+
+.leaves2
+{
+	top: 30vh;
+	left: 100px;
+}
+
+.leaves3
+{
+	top: 25vh;
+	left: 70px;
+}
+
+.aku
+{
+	top: 47vh;
+	left: 25%;
+}
+
+.jon
+{
+	top: 46vh;
+	left: 15%;
+}
+
+.ojan
+{
+	top: 47vh;
+	left: 45%;
+}
+
+.afif
+{
+	top: 46vh;
+	left: 55%;
+}
+
+.gading
+{
+	top: 49vh;
+	left: 35%;
+}

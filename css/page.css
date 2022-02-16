@@ -1,0 +1,529 @@
+
+/* CSS Document */
+
+#container, #warn
+{
+	display: none;
+}
+
+.page
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	width: 100vw;
+	height: 100vh;
+}
+
+.konten
+{
+	position: fixed;
+	z-index: 2;
+	overflow: auto;
+	text-align: justify;
+}
+
+.indonesia, .inggris
+{
+	padding: 1%;
+	width: 98%;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 2vw;
+	-moz-column-gap: 2vw;
+	column-gap: 2vw;
+}
+
+.bg-page
+{
+	position: fixed;
+	z-index: 1;
+	width: 100vw;
+	height: 100vh;
+}
+
+#konten-20 .indonesia, #konten-20 .inggris, #konten-21 .indonesia, #konten-21 .inggris
+{
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+	-webkit-column-gap: 0px;
+	-moz-column-gap: 0px;
+	column-gap: 0px;
+}
+
+#gbr-bronze
+{
+	position: fixed;
+	width: 30%;
+	margin: 5vh 10vw;
+}
+
+#konten-salam
+{
+	text-indent: 40px;
+	width: 60vw;
+	height: 27vh;
+	margin-left: 37vw;
+	margin-top: 70vh;
+	color: #000000;
+}
+
+#page1
+{
+	width: 100vw;
+}
+
+#page1 #konten-1
+{
+	text-indent: 40px;
+	color: #003A30;
+	width: 50vw;
+	height: 50vh;
+	margin-left: 10vw;
+	margin-top: 20vh;
+	display: block;
+}
+
+#page1 #judul-1
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-size: 3vh;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page2
+{
+}
+
+#page2 #konten-2
+{
+	width: 75vw;
+	height: 40vh;
+	margin-left: 15vw;
+	margin-top: 3vh;
+}
+
+#page2 #konten-2 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page2 #judul-2
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page3
+{
+}
+
+#page3 #konten-3
+{
+	text-indent: 40px;
+	width: 50vw;
+	height: 60vh;
+	margin-left: 25vw;
+	margin-top: 20vh;
+	text-indent: 40px;
+}
+
+#page3 #judul-3
+{
+	text-transform: uppercase;
+	width: 50vw;
+	margin-left: 25vw;
+	margin-top: 10vh;
+	font-size: 5vh;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+}
+
+#page4
+{
+}
+
+#page4 #konten-4
+{
+	text-indent: 40px;
+	width: 50vw;
+	margin-left: 45vw;
+	margin-top: 25vh;
+	background-color: #FFFFFF;
+	opacity: 0.7;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#page4 #konten-4 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page4 #judul-4
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page5
+{
+}
+
+#page5 #konten-5
+{
+	text-indent: 40px;
+	width: 50vw;
+	height: 30vh;
+	margin-left: 30vw;
+	margin-top: 55vh;
+}
+
+#page5 #konten-5 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page5 #judul-5
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page6
+{
+}
+
+#page6 #konten-6
+{
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+	-webkit-column-gap: 0px;
+	-moz-column-gap: 0px;
+	column-gap: 0px;
+	text-indent: 40px;
+	width: 30vw;
+	height: 45vh;
+	margin-left: 28vw;
+	margin-top: 45vh;
+	color: #B35900;
+}
+
+#page6 #konten-6 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page6 #judul-6
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page7
+{
+}
+
+#page7 #konten-7
+{
+	text-indent: 40px;
+	width: 40vw;
+	height: 45vh;
+	margin-left: 59vw;
+	margin-top: 5vh;
+}
+
+#page7 #konten-7 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page7 #judul-7
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page8
+{
+}
+
+#page8 #konten-8
+{
+	text-indent: 40px;
+	width: 55vw;
+	height: 80.5vh;
+	margin-left: 40vw;
+	margin-top: 5vh;
+	background-color: #000000;
+	opacity: 0.6;
+	color: #FFFFFF;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#page8 #konten-8 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page8 #judul-8
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#bg-bronze
+{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 0;
+}
+
+#page9
+{
+}
+
+#page9 #konten-9
+{
+	text-indent: 40px;
+	width: 50vw;
+	height: 32vh;
+	margin-left: 26vw;
+	margin-top: 65vh;
+}
+
+#page9 #konten-9 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page9 #judul-9
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page10
+{
+}
+
+#page10 #konten-10
+{
+	text-indent: 40px;
+	width: 30vw;
+	margin-left: 10vw;
+	margin-top: 30vh;
+}
+
+#page10 #konten-10 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page10 #judul-10
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page11
+{
+}
+
+#page11 #konten-11
+{
+	text-indent: 40px;
+	width: 55vw;
+	height: 30.5vh;
+	color: #FFFFFF;
+	overflow-y: auto;
+	margin-left: 42vw;
+	margin-top: 23vh;
+}
+
+#page11 #konten-11 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page11 #judul-11
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page12
+{
+}
+
+#page12 #konten-12
+{
+	text-indent: 40px;
+	color: #FFFFFF;
+	width: 45vw;
+	height: 52vh;
+	margin-left: 10vw;
+	margin-top: 36vh;
+}
+
+#page12 #konten-12 ul li
+{
+	list-style-type: circle;
+	text-indent: 0px;
+}
+
+#page12 #judul-12
+{
+	text-transform: uppercase;
+	margin-left: 30vw;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#page13 #konten-13
+{
+	text-indent: 40px;
+	width: 60vw;
+	height: 30vh;
+	margin-left: 25vw;
+	margin-top: 65vh;
+}
+
+#page14 #konten-14
+{
+	text-indent: 40px;
+	width: 40vw;
+	height: 35vh;
+	margin-left: 53vw;
+	margin-top: 13vh;
+}
+
+#video14
+{
+	position: fixed;
+	z-index: 2;
+	margin-left: 10vw;
+	margin-top: 55vh;
+	height: 38vh;
+	border: solid 10px #363636;
+	border-radius: 5px;
+}
+
+#page15 #konten-15
+{
+	text-indent: 40px;
+	width: 37vw;
+	height: 53vh;
+	margin-left: 9vw;
+	margin-top: 13vh;
+}
+
+#page16 #konten-16
+{
+	text-indent: 40px;
+	width: 40vw;
+	height: 30.5vh;
+	overflow-y: auto;
+	margin-left: 50vw;
+	margin-top: 60vh;
+}
+
+#page17 #konten-17
+{
+	text-indent: 40px;
+	width: 40vw;
+	height: 30.5vh;
+	background-color: #FFFFFF;
+	opacity: 0.6;
+	border-radius: 10px;
+	padding: 10px;
+	overflow-y: auto;
+	margin-left: 10vw;
+	margin-top: 60vh;
+}
+
+#page18 #konten-18
+{
+	text-indent: 40px;
+	width: 40vw;
+	height: 30.5vh;
+	overflow-y: auto;
+	margin-left: 30vw;
+	margin-top: 30vh;
+}
+
+#page19 #konten-19
+{
+	text-indent: 40px;
+	width: 40vw;
+	height: 30.5vh;
+	background-color: #FFFFFF;
+	opacity: 0.6;
+	padding: 10px;
+	border-radius: 10px;
+	overflow-y: auto;
+	margin-left: 57vw;
+	margin-top: 15vh;
+}
+
+#video19
+{
+	position: fixed;
+	z-index: 2;
+	margin-left: 42vw;
+	margin-top: 55vh;
+	height: 38vh;
+	border: solid 10px #363636;
+	border-radius: 5px;
+}
+
+#pic19
+{
+	z-index: 3;
+	margin-left: 60vw;
+	margin-top: 50vh;
+	width: 20vw;
+	position: fixed;
+}
+
+#pic12
+{
+	z-index: 3;
+	margin-left: 65vw;
+	margin-top: 26vh;
+	width: 33vw;
+	height: 39vh;
+	position: fixed;
+	border: solid #000000 10px;
+	border-radius: 5px;
+}
+
+#pic11
+{
+	z-index: 3;
+	margin-left: 23vw;
+	margin-top: 60vh;
+	width: 15vw;
+	position: fixed;
+}
